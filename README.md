@@ -25,7 +25,7 @@ compile ("com.github.MingYueChunQiu:BlockEditTextViewGroup:1.0"){
         exclude group:'com.android.support'
     }
 ```
-
+![image](https://github.com/MingYueChunQiu/BlockEditTextViewGroup/img_folder/effect.png)
 ## 二、控件的使用 ##
 在代码中使用时，可以使用builder进行创建，也可以直接使用构造函数
 
