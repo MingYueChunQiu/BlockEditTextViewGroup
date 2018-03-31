@@ -164,7 +164,7 @@ public class BlockEditTextViewGroup extends LinearLayoutCompat {
     /**
      * 设置每个输入框所占的平均宽度，并根据宽度，设置其横向外边距值
      *
-     * @param itemWidth 输入框宽度
+     * @param itemWidth 平均每个输入框宽度
      */
     public void setItemWidth(int itemWidth) {
         if (itemWidth < mBlockList.get(0).getLayoutParams().width) {
@@ -529,7 +529,7 @@ public class BlockEditTextViewGroup extends LinearLayoutCompat {
             return this;
         }
 
-        public Builder setItemWidth(int itemWidth){
+        public Builder setItemWidth(int itemWidth) {
             this.itemWidth = itemWidth;
             return this;
         }
