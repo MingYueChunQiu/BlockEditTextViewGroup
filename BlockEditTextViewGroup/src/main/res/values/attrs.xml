@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BlockEditTextViewGroup">
+        <attr name="blockCount" format="integer" />
+        <attr name="blockSideLength" format="dimension" />
+        <attr name="blockMargin" format="dimension" />
+        <attr name="blockMarginLeft" format="dimension" />
+        <attr name="blockMarginRight" format="dimension" />
+        <attr name="blockMarginTop" format="dimension" />
+        <attr name="blockMarginBottom" format="dimension" />
+        <attr name="blockTextSize" format="dimension" />
+    </declare-styleable>
+</resources>
