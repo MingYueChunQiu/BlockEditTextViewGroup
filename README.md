@@ -15,7 +15,7 @@ allprojects {
 
 ```
 dependencies {
-	        compile 'com.github.MingYueChunQiu:BlockEditTextViewGroup:1.0'
+	        implementation 'com.github.MingYueChunQiu:BlockEditTextViewGroup:1.0'
 	}
 ```
 如果报Failed to resolve:com.android.support:appcompat-v7:这样的错，将依赖改写成这样
